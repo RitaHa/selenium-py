@@ -18,7 +18,7 @@ def test_google_search(browser, phrase):
     search_page.search(phrase)
     #     Then the search result title contains phrase
     # WebDriverWait(browser, 10).until(expected_conditions.title_contains(phrase))
-    # don't Implicit Wait vs Explicit Wait
+    # don't use Implicit Wait with Explicit Wait
     assert phrase in result_page.title()
     #     And the search result query is phrase
     assert phrase == result_page.search_input_value()
