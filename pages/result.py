@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 
 
 class GoogleResultPage(BasePage):
-    RESULT_LINKS = (By.CSS_SELECTOR, 'div[class="MjjYud"] > div:not([data-initq]) a > h3')
+    RESULT_LINKS = (By.CSS_SELECTOR, 'div.MjjYud > div:not([data-initq]) a > h3')
     SEARCH_INPUT = (By.CSS_SELECTOR, 'textarea[type=search]')
 
     def result_link_titles(self):
