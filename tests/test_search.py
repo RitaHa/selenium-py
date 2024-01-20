@@ -1,9 +1,7 @@
 import pytest
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
-from pages.result import GoogleResultPage
-from pages.search import GoogleSearchPage
+from elements.pages.result import GoogleResultPage
+from elements.pages.search import GoogleSearchPage
 
 
 @pytest.mark.parametrize('phrase', ['Carbonara', 'Mascarpone', 'Arancini'])
