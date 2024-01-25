@@ -1,3 +1,3 @@
 # selenium-py
 
-This repository serves as a basic Web UI test automation solution implemented in Python, utilizing the Selenium WebDriver, Pytest.
+This repository provides a basic Web UI test automation solution implemented in Python, using the Selenium WebDriver and Pytest. It includes simple tests for Google Search.
